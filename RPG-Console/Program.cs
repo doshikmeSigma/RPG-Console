@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿public class Program
+{
+    static int number;
+    static void Main(string[] args)
+    {
+        Console.WriteLine(number);
+    }
+}
