@@ -36,14 +36,10 @@ namespace RPG_Console.Mobs
             get { return _mainHand; }
             set
             {
-                if (StaticItems.AllWeapons.Contains(value))
+                if (StaticItems.AllWeapons.ContainsKey(value.ID))
                 {
                     _mainHand = value;
-                }
-                else
-                {
-                    throw new InvalidOperationException("Нельзя поместить данный предмет в руку!");
-                }
+                }    
             }
         }
     }
