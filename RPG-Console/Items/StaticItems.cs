@@ -1,15 +1,35 @@
 ﻿using System.Collections.Immutable;
-using System.Runtime.InteropServices;
 
 namespace RPG_Console.Items
 {
     public static class StaticItems
     {
-        //public static readonly ImmutableDictionary<ItemType, Item> AllItems = ImmutableDictionary.Create<ItemType, Item>() тут надо объединить 2 нижних иммутабельных словаря
-        public static readonly ImmutableDictionary<string, Weapon> AllWeapons = ImmutableDictionary.Create<string, Weapon>()
+        private readonly static ImmutableDictionary<string, Item> ItemTemplates = ImmutableDictionary.Create<string, Item>()
+            // Weapons
             .Add("zombiehands", new Weapon("ZombieHands", 10))
-            .Add("sword", new Weapon("Sword", 20));
+            .Add("sword", new Weapon("Sword", 20))
+            // Armor
+            .Add("helmet", new Armor("Helmet", 1));
 
-        //public static readonly ImmutableDictionary<ItemType, Armor> AllArmor = ImmutableDictionary.Create<ItemType, Armor>()
+        public static T Create<T>(string id)
+        {
+            if (ItemTemplates[id].Clone() is T t)
+            {
+                return t;
+            }
+            else
+            {
+                throw new InvalidCastException($"В шаблоне отсутствует предмет такого типа");
+            }
+        }
+
+        public static bool ContainsKeyInItemTemplates(string id)
+        {
+            if (ItemTemplates.ContainsKey(id))
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }

@@ -2,9 +2,14 @@
 
 namespace RPG_Console.Items
 {
-    public class Armor(string name, int protection) : Item(name, name.ToLower())
+    public class Armor(string name, int protection) : Item(name)
     {
         private readonly int _protection = protection;
         public int Protection { get { return _protection; } }
+
+        public override Armor Clone()
+        {
+            return new Armor(Name, Protection);
+        }
     }
 }

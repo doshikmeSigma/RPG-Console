@@ -4,6 +4,9 @@ namespace RPG_Console.Mobs
 {
     public abstract class Entity(int maxHealthPoint, int healthPoint, string name)
     {
+        private readonly string _id = name.ToLower();
+        public string ID { get { return _id; } }
+
         private readonly string _name = name;
         public string Name { get { return _name; } }
 
@@ -30,16 +33,15 @@ namespace RPG_Console.Mobs
     public class EquipmentSlots
     {
         private Item _mainHand;
-
         public Item MainHand
         {
             get { return _mainHand; }
             set
             {
-                if (StaticItems.AllWeapons.ContainsKey(value.ID))
+                if (StaticItems.ContainsKeyInItemTemplates(value.ID))
                 {
                     _mainHand = value;
-                }    
+                }
             }
         }
     }
