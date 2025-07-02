@@ -7,10 +7,12 @@ namespace RPG_Console.Locations
     public abstract class Location(string locationName, string description)
     {
         private readonly string _locationName = locationName;
-        public string LocationName { get { return _locationName; } }
+        protected string LocationName { get { return _locationName; } }
 
         private readonly string _description = description;
-        public string Description { get { return _description; } }
+        protected string Description { get { return _description; } }
+
+        protected int NumberOfEntitiesKilled { get; set; }
 
         protected ImmutableDictionary<string, Entity> LocationEntities = ImmutableDictionary<string, Entity>.Empty;
 

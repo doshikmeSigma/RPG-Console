@@ -9,9 +9,9 @@ namespace RPG_Console
             string nameCharacter;
             do
             {
-                Console.Write("Введите имя вашего персонажа: ");
+                Console.Write("Enter your character's name: ");
                 nameCharacter = Console.ReadLine();
-                Console.Write($"Ваше имя: {nameCharacter}. Если согласны, то введите Y, иначе - любой символ: ");
+                Console.Write($"Your name: {nameCharacter}. If you agree, then enter Y, otherwise - any character: ");
                 if (Console.ReadLine().ToUpper() == "Y")
                 {
                     Console.Clear();
@@ -25,7 +25,7 @@ namespace RPG_Console
 
         public static void StartGame()
         {
-            Console.WriteLine("Добро пожаловать в игру RPG Console");
+            Console.WriteLine("Welcome to the RPG Console game");
             Character mainCharacter = CharacterInitialization();
         }
     }

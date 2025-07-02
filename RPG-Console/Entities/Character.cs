@@ -10,6 +10,11 @@ namespace RPG_Console.Mobs
 
         public int Level { get; private set; } = 1;
 
+        public override Entity Clone()
+        {
+            throw new NotSupportedException("Клонирование главного героя не поддерживается");
+        }
+
         public void AddExperience(int experience)
         {
             Experience += experience;

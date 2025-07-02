@@ -10,6 +10,8 @@ namespace RPG_Console.Mobs
         private readonly string _name = name;
         public string Name { get { return _name; } }
 
+        public bool IsArmed { get; set; } = false;
+            
         public EquipmentSlots Slots { get; } = new EquipmentSlots();
 
         public int MaxHealthPoint { get; protected set; } = maxHealthPoint;
@@ -20,6 +22,8 @@ namespace RPG_Console.Mobs
             get { return _healthPoint; }
             set { _healthPoint = Math.Clamp(value, 0, MaxHealthPoint); }
         }
+
+        public abstract Entity Clone();
 
         public void Attack(Entity entity)
         {
