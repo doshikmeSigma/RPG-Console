@@ -1,35 +1,38 @@
-﻿using System.Collections.Immutable;
+﻿using System.Collections.Generic;
+using System.Collections.Immutable;
+using RPG_Console.Items.Effects;
 
 namespace RPG_Console.Items
 {
     public static class StaticItems
     {
-        private readonly static ImmutableDictionary<string, Item> ItemTemplates = ImmutableDictionary.Create<string, Item>()
+        private readonly static ImmutableDictionary<ItemId, Item> ItemTemplates = ImmutableDictionary.Create<ItemId, Item>()
             // Weapons
-            .Add("zombiehands", new Weapon("ZombieHands", 10))
-            .Add("sword", new Weapon("Sword", 20))
+            .Add(ItemId.Fists, new Weapon("Fists", ItemId.Fists, EquipmentSlot.MainHand, 15))
+            .Add(ItemId.Sword, new Weapon("Sword", ItemId.Sword, EquipmentSlot.MainHand, 20))
+            .Add(ItemId.ZombieHands, new Weapon("ZombieHands", ItemId.ZombieHands, EquipmentSlot.MainHand, 10))
+
             // Armor
-            .Add("helmet", new Armor("Helmet", 1));
+            .Add(ItemId.Helmet, new Armor("Helmet", ItemId.Helmet, EquipmentSlot.MainHand, 1))
 
-        public static T Create<T>(string id)
-        {
-            if (ItemTemplates[id].Clone() is T t)
-            {
-                return t;
-            }
-            else
-            {
-                throw new InvalidCastException($"В шаблоне отсутствует предмет такого типа");
-            }
-        }
+            // Potion
+            .Add(ItemId.HealthPotion, new Potion("HealthPotion", ItemId.HealthPotion, new HealingEffect(10)));
 
-        public static bool ContainsKeyInItemTemplates(string id)
-        {
-            if (ItemTemplates.ContainsKey(id))
-            {
-                return true;
-            }
-            return false;
-        }
+        public static Item Get(ItemId itemId) => ItemTemplates[itemId].Clone();
+
+        public static bool Contains(ItemId itemId) => ItemTemplates.ContainsKey(itemId);
+    }
+    public enum ItemId
+    {
+        // Weapons
+        Fists,
+        Sword,
+        ZombieHands,
+
+        // Armor
+        Helmet,
+
+        // Potion
+        HealthPotion
     }
 }

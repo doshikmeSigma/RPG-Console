@@ -1,13 +1,13 @@
-﻿using RPG_Console.Items;
-using static System.Net.Mime.MediaTypeNames;
+﻿using RPG_Console.Entities;
+using RPG_Console.Items;
 
 namespace RPG_Console.Mobs
 {
-    public class Zombie : Entity
+    public class Zombie : Enemy
     {
         public Zombie(string name, int healthPoint) : base(healthPoint, healthPoint, name)
         {
-            Slots.MainHand = StaticItems.Create<Weapon>("zombiehands");
+            Equipment[EquipmentSlot.MainHand] = StaticItems.Get(ItemId.ZombieHands);
         }
 
         public override Zombie Clone()

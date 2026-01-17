@@ -1,13 +1,20 @@
-﻿namespace RPG_Console.Items
+﻿using System.Collections.Immutable;
+
+namespace RPG_Console.Items
 {
-    public abstract class Item(string name)
+    public abstract class Item(string name, ItemId itemId, EquipmentSlot availableEquipmentSlot) : IComparable<Item>
     {
-        private readonly string _name = name;
-        public string Name { get { return _name; } }
+        public string Name { get; } = name;
+        public ItemId Id { get; } = itemId;
+        public EquipmentSlot AvailableEquipmentSlot { get; } = availableEquipmentSlot;
 
-        private readonly string _id = name.ToLower();
-        public string ID { get { return _id; } }
+        public int CompareTo(Item item)
+        {
+            if (item == null) return 1;
+            return Id.CompareTo(item.Id);
+        }
 
+        public abstract string FullDescription();
         public abstract Item Clone();
     }
 }

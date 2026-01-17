@@ -2,18 +2,19 @@
 
 namespace RPG_Console.Mobs
 {
-    public class Character(int healthPoint, string name) : Entity(healthPoint, healthPoint, name)
+    public class Character : Entity
     {
-        public int Experience { get; private set; } = 0;
+        public int Experience { get; private set; }
+        public int ExpToTheNextLevel { get; private set; }
+        public int Level { get; private set; }
 
-        public int ExpToTheNextLevel { get; private set; } = 10;
-
-        public int Level { get; private set; } = 1;
-
-        public override Entity Clone()
+        public Character(int healthPoint, string name) : base(healthPoint, healthPoint, name)
         {
-            throw new NotSupportedException("Клонирование главного героя не поддерживается");
-        }
+            Experience = 0;
+            ExpToTheNextLevel = 10;
+            Level = 1;
+            Equipment[EquipmentSlot.MainHand] = StaticItems.Get(ItemId.Fists);
+        }   
 
         public void AddExperience(int experience)
         {

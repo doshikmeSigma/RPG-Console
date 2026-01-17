@@ -6,19 +6,12 @@ namespace RPG_Console.Entities
 {
     public static class StaticEntities
     {
-        private readonly static ImmutableDictionary<string, Entity> EntitiesTemplates = ImmutableDictionary.Create<string, Entity>()
+        private readonly static ImmutableDictionary<string, Enemy> EntitiesTemplates = ImmutableDictionary.Create<string, Enemy>()
             .Add("zombie", new Zombie("Zombie", 80));
 
-        public static T Create<T>(string id)
+        public static Entity Create(string id)
         {
-            if (EntitiesTemplates[id].Clone() is T t)
-            {
-                return t;
-            }
-            else
-            {
-                throw new InvalidCastException($"В шаблоне отсутствует существо такого типа");
-            }
+            return EntitiesTemplates[id].Clone();
         }
 
         public static bool ContainsKeyInEntitiesTemplates(string id)

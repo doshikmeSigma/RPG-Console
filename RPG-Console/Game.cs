@@ -4,6 +4,8 @@ namespace RPG_Console
 {
     public static class Game
     {
+        public static Character MainCharacter { get; private set; }
+
         private static Character CharacterInitialization()
         {
             string nameCharacter;
@@ -26,7 +28,7 @@ namespace RPG_Console
         public static void StartGame()
         {
             Console.WriteLine("Welcome to the RPG Console game");
-            Character mainCharacter = CharacterInitialization();
+            MainCharacter = CharacterInitialization();
         }
     }
 }

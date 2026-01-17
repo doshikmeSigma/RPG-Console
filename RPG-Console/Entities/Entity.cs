@@ -1,4 +1,7 @@
-﻿using RPG_Console.Items;
+﻿using System.Collections.Generic;
+using System.Xml.Linq;
+using RPG_Console.Items;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace RPG_Console.Mobs
 {
@@ -11,8 +14,10 @@ namespace RPG_Console.Mobs
         public string Name { get { return _name; } }
 
         public bool IsArmed { get; set; } = false;
-            
-        public EquipmentSlots Slots { get; } = new EquipmentSlots();
+
+        public Inventory Inventory { get; } = new Inventory();
+
+        public EquipmentSlots Equipment { get; } = new EquipmentSlots();
 
         public int MaxHealthPoint { get; protected set; } = maxHealthPoint;
 
@@ -23,29 +28,11 @@ namespace RPG_Console.Mobs
             set { _healthPoint = Math.Clamp(value, 0, MaxHealthPoint); }
         }
 
-        public abstract Entity Clone();
-
         public void Attack(Entity entity)
         {
-            if (Slots.MainHand is Weapon weapon)
+            if (Equipment[EquipmentSlot.MainHand] is Weapon weapon)
             {
                 entity.HealthPoint -= weapon.Damage;
-            }
-        }
-    }
-
-    public class EquipmentSlots
-    {
-        private Item _mainHand;
-        public Item MainHand
-        {
-            get { return _mainHand; }
-            set
-            {
-                if (StaticItems.ContainsKeyInItemTemplates(value.ID))
-                {
-                    _mainHand = value;
-                }
             }
         }
     }
