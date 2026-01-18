@@ -1,16 +1,18 @@
-﻿namespace RPG_Console.Menus
+﻿using RPG_Console.Mobs;
+
+namespace RPG_Console.Menus
 {
-    public class MainMenu : Menu
+    public class MainMenu(Entity entity) : Menu(entity)
     {
         public override string MenuCallPhrase => "MainMenu";
         protected override List<Menu> AvailableMenus { get; } =
         [
-            new InventoryMenu()
+            new InventoryMenu(entity)
         ];
 
         protected override Menu Clone()
         {
-            return new MainMenu();
+            return new MainMenu(CurrentEntity);
         }
     }
 }

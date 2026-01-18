@@ -1,4 +1,6 @@
-﻿namespace RPG_Console.Menus
+﻿using RPG_Console.Mobs;
+
+namespace RPG_Console.Menus
 {
     public static class MenuManager
     {
@@ -7,7 +9,7 @@
 
         static MenuManager()
         {
-            Menus.Push(new MainMenu());
+            Menus.Push(new MainMenu(Game.MainCharacter));
         }
 
         private static void Push(Menu menu)
@@ -44,12 +46,12 @@
             Menus.Peek().Prepare();
         }
 
-        public static MenuState Run()
+        public static MenuState Run(Entity entity)
         {
             if (Menus.Count == 0) return MenuState.Exit;
 
             Menus.Peek().OnRun();
-            ConsoleRenderer.Render(Menus.Peek());
+            ConsoleRenderer.Render(entity, Menus.Peek());
             HandleInput(Console.ReadKey(true).Key);
 
             return MenuState.Continue;

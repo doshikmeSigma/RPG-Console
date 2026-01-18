@@ -6,16 +6,18 @@ namespace RPG_Console
     public static class ConsoleRenderer
     {
         public const int StartCursorPosition = 5;
-        private static Character MainCharacter { get; } = Game.MainCharacter;
 
-        public static void DrawHUD()
+        public static void DrawHUD(Entity entity)
         {
             Console.Clear();
-            Console.WriteLine($"Name: {Game.MainCharacter.Name}");
-            Console.WriteLine($"HealthPoint: {MainCharacter.HealthPoint}/{MainCharacter.MaxHealthPoint}");
-            Console.WriteLine($"Level: {MainCharacter.Level}");
-            Console.WriteLine($"Experience: {MainCharacter.Experience}/{MainCharacter.ExpToTheNextLevel}");
-            Console.SetCursorPosition(0, StartCursorPosition);
+            Console.WriteLine($"Name: {entity.Name}");
+            Console.WriteLine($"HealthPoint: {entity.HealthPoint}/{entity.MaxHealthPoint}");
+            if (entity is Character character)
+            {
+                Console.WriteLine($"Level: {character.Level}");
+                Console.WriteLine($"Experience: {character.Experience}/{character.ExpToTheNextLevel}");
+                Console.SetCursorPosition(0, StartCursorPosition);
+            }
         }
 
         public static void DrawMenu(Menu menu)
@@ -50,9 +52,9 @@ namespace RPG_Console
             }
         }
 
-        public static void Render(Menu menu)
+        public static void Render(Entity entity, Menu menu)
         {
-            DrawHUD();
+            DrawHUD(entity);
             DrawMenu(menu);
         }
     }

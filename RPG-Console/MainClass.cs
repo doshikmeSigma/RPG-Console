@@ -24,7 +24,7 @@ namespace RPG_Console
             MenuState menuState = MenuState.Continue;
             while (menuState == MenuState.Continue)
             {
-                menuState = MenuManager.Run();
+                menuState = MenuManager.Run(character);
             }
             Console.Clear();
             Console.WriteLine("You are out of the game");

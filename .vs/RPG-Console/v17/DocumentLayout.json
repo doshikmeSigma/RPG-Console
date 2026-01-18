@@ -3,88 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\locations\\dungeon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\locations\\dungeon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\items\\iusable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\items\\iusable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\items\\staticitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\items\\staticitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\menus\\dropmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\menus\\dropmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\equipmentslots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\equipmentslots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\menus\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\menus\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\locations\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\locations\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\entities\\staticentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\entities\\staticentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\entities\\iprototype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\entities\\iprototype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\entities\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\entities\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\items\\effects\\healingeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\items\\effects\\healingeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\menus\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\menus\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\menus\\usemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\menus\\usemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\menus\\equipmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\menus\\equipmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\entities\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\entities\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\menus\\inventorymenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\menus\\inventorymenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\menus\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\menus\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\menus\\inspectmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\menus\\inspectmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\menus\\equipmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\menus\\equipmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\menus\\dropmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\menus\\dropmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\consolerenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\consolerenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\menus\\itemnameclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\menus\\itemnameclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\entities\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\entities\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\mainclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\mainclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\menus\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\menus\\menumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -99,16 +47,68 @@
       "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\equipmentslots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\equipmentslots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\menus\\itemnameclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\menus\\itemnameclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\menus\\inventorymenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\menus\\inventorymenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\menus\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\menus\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\entities\\staticentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\entities\\staticentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\entities\\zombie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\entities\\zombie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\items\\potion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\items\\potion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\entities\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\entities\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\menus\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\menus\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\entities\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\entities\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\entities\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\entities\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\locations\\dungeon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\locations\\dungeon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\items\\iusable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\items\\iusable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\items\\staticitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\items\\staticitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\locations\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\locations\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\entities\\iprototype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\entities\\iprototype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\items\\effects\\healingeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\items\\effects\\healingeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\items\\potion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|solutionrelative:rpg-console\\items\\potion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F059A86A-7F54-4BD7-BA9E-45A81D5800BD}|RPG-Console\\RPG-Console.csproj|c:\\users\\sigma\\desktop\\rpg-console\\rpg-console\\items\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -134,30 +134,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "MenuManager.cs",
               "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Menus\\MenuManager.cs",
               "RelativeDocumentMoniker": "RPG-Console\\Menus\\MenuManager.cs",
               "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Menus\\MenuManager.cs",
               "RelativeToolTip": "RPG-Console\\Menus\\MenuManager.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAkwCsAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAcwC4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-27T13:09:32.262Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Menus\\Menu.cs",
               "RelativeDocumentMoniker": "RPG-Console\\Menus\\Menu.cs",
               "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Menus\\Menu.cs",
               "RelativeToolTip": "RPG-Console\\Menus\\Menu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-04T14:19:22.174Z",
               "IsPinned": true,
@@ -165,13 +166,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "EquipmentSlots.cs",
               "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\EquipmentSlots.cs",
               "RelativeDocumentMoniker": "RPG-Console\\EquipmentSlots.cs",
               "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\EquipmentSlots.cs",
               "RelativeToolTip": "RPG-Console\\EquipmentSlots.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowBAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-06T16:25:53.081Z",
               "IsPinned": true,
@@ -179,16 +180,17 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 5,
               "Title": "ConsoleRenderer.cs",
               "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\ConsoleRenderer.cs",
               "RelativeDocumentMoniker": "RPG-Console\\ConsoleRenderer.cs",
               "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\ConsoleRenderer.cs",
               "RelativeToolTip": "RPG-Console\\ConsoleRenderer.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA3wCMAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAMwDYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T11:10:26.072Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -200,131 +202,150 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "InventoryMenu.cs",
-              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Menus\\InventoryMenu.cs",
-              "RelativeDocumentMoniker": "RPG-Console\\Menus\\InventoryMenu.cs",
-              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Menus\\InventoryMenu.cs",
-              "RelativeToolTip": "RPG-Console\\Menus\\InventoryMenu.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "UseMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Menus\\UseMenu.cs",
+              "RelativeDocumentMoniker": "RPG-Console\\Menus\\UseMenu.cs",
+              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Menus\\UseMenu.cs*",
+              "RelativeToolTip": "RPG-Console\\Menus\\UseMenu.cs*",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwCUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T16:16:18.34Z"
+              "WhenOpened": "2026-01-13T15:21:48.549Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "InspectMenu.cs",
-              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Menus\\InspectMenu.cs",
-              "RelativeDocumentMoniker": "RPG-Console\\Menus\\InspectMenu.cs",
-              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Menus\\InspectMenu.cs",
-              "RelativeToolTip": "RPG-Console\\Menus\\InspectMenu.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T17:07:58.952Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "DropMenu.cs",
               "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Menus\\DropMenu.cs",
               "RelativeDocumentMoniker": "RPG-Console\\Menus\\DropMenu.cs",
-              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Menus\\DropMenu.cs",
-              "RelativeToolTip": "RPG-Console\\Menus\\DropMenu.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAwCcAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Menus\\DropMenu.cs*",
+              "RelativeToolTip": "RPG-Console\\Menus\\DropMenu.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-16T12:22:12.68Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StaticItems.cs",
-              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Items\\StaticItems.cs",
-              "RelativeDocumentMoniker": "RPG-Console\\Items\\StaticItems.cs",
-              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Items\\StaticItems.cs",
-              "RelativeToolTip": "RPG-Console\\Items\\StaticItems.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "EquipMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Menus\\EquipMenu.cs",
+              "RelativeDocumentMoniker": "RPG-Console\\Menus\\EquipMenu.cs",
+              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Menus\\EquipMenu.cs*",
+              "RelativeToolTip": "RPG-Console\\Menus\\EquipMenu.cs*",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABIAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T17:39:21.613Z",
+              "WhenOpened": "2026-01-08T13:45:01.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Inventory.cs",
+              "RelativeDocumentMoniker": "RPG-Console\\Inventory.cs",
+              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Inventory.cs",
+              "RelativeToolTip": "RPG-Console\\Inventory.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T16:26:28.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainClass.cs",
+              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\MainClass.cs",
+              "RelativeDocumentMoniker": "RPG-Console\\MainClass.cs",
+              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\MainClass.cs",
+              "RelativeToolTip": "RPG-Console\\MainClass.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T16:40:33.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InspectMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Menus\\InspectMenu.cs",
+              "RelativeDocumentMoniker": "RPG-Console\\Menus\\InspectMenu.cs",
+              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Menus\\InspectMenu.cs*",
+              "RelativeToolTip": "RPG-Console\\Menus\\InspectMenu.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T17:07:58.952Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IUsable.cs",
-              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Items\\IUsable.cs",
-              "RelativeDocumentMoniker": "RPG-Console\\Items\\IUsable.cs",
-              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Items\\IUsable.cs",
-              "RelativeToolTip": "RPG-Console\\Items\\IUsable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Menus\\MainMenu.cs",
+              "RelativeDocumentMoniker": "RPG-Console\\Menus\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Menus\\MainMenu.cs*",
+              "RelativeToolTip": "RPG-Console\\Menus\\MainMenu.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T15:55:18.723Z",
+              "WhenOpened": "2025-12-27T14:11:31.213Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Dungeon.cs",
-              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Locations\\Dungeon.cs",
-              "RelativeDocumentMoniker": "RPG-Console\\Locations\\Dungeon.cs",
-              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Locations\\Dungeon.cs",
-              "RelativeToolTip": "RPG-Console\\Locations\\Dungeon.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T20:44:37.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Entity.cs",
-              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Entities\\Entity.cs",
-              "RelativeDocumentMoniker": "RPG-Console\\Entities\\Entity.cs",
-              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Entities\\Entity.cs",
-              "RelativeToolTip": "RPG-Console\\Entities\\Entity.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBMAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T13:22:51.788Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "HealingEffect.cs",
-              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Items\\Effects\\HealingEffect.cs",
-              "RelativeDocumentMoniker": "RPG-Console\\Items\\Effects\\HealingEffect.cs",
-              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Items\\Effects\\HealingEffect.cs",
-              "RelativeToolTip": "RPG-Console\\Items\\Effects\\HealingEffect.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T10:37:14.686Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IPrototype.cs",
-              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Entities\\IPrototype.cs",
-              "RelativeDocumentMoniker": "RPG-Console\\Entities\\IPrototype.cs",
-              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Entities\\IPrototype.cs",
-              "RelativeToolTip": "RPG-Console\\Entities\\IPrototype.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T09:51:34.255Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Enemy.cs",
-              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Entities\\Enemy.cs",
-              "RelativeDocumentMoniker": "RPG-Console\\Entities\\Enemy.cs",
-              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Entities\\Enemy.cs",
-              "RelativeToolTip": "RPG-Console\\Entities\\Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Title": "HonestRandom.cs",
+              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\HonestRandom.cs",
+              "RelativeDocumentMoniker": "RPG-Console\\HonestRandom.cs",
+              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\HonestRandom.cs",
+              "RelativeToolTip": "RPG-Console\\HonestRandom.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T09:52:26.247Z"
+              "WhenOpened": "2025-06-20T20:46:15.223Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Game.cs",
+              "RelativeDocumentMoniker": "RPG-Console\\Game.cs",
+              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Game.cs",
+              "RelativeToolTip": "RPG-Console\\Game.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T14:19:07.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ItemNameClass.cs",
+              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Menus\\ItemNameClass.cs",
+              "RelativeDocumentMoniker": "RPG-Console\\Menus\\ItemNameClass.cs",
+              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Menus\\ItemNameClass.cs",
+              "RelativeToolTip": "RPG-Console\\Menus\\ItemNameClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T19:55:51.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "InventoryMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Menus\\InventoryMenu.cs",
+              "RelativeDocumentMoniker": "RPG-Console\\Menus\\InventoryMenu.cs",
+              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Menus\\InventoryMenu.cs",
+              "RelativeToolTip": "RPG-Console\\Menus\\InventoryMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T16:16:18.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "StaticEntities.cs",
               "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Entities\\StaticEntities.cs",
               "RelativeDocumentMoniker": "RPG-Console\\Entities\\StaticEntities.cs",
@@ -336,115 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Location.cs",
-              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Locations\\Location.cs",
-              "RelativeDocumentMoniker": "RPG-Console\\Locations\\Location.cs",
-              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Locations\\Location.cs",
-              "RelativeToolTip": "RPG-Console\\Locations\\Location.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T20:42:21.249Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UseMenu.cs",
-              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Menus\\UseMenu.cs",
-              "RelativeDocumentMoniker": "RPG-Console\\Menus\\UseMenu.cs",
-              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Menus\\UseMenu.cs",
-              "RelativeToolTip": "RPG-Console\\Menus\\UseMenu.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAcwDEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T15:21:48.549Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "EquipMenu.cs",
-              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Menus\\EquipMenu.cs",
-              "RelativeDocumentMoniker": "RPG-Console\\Menus\\EquipMenu.cs",
-              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Menus\\EquipMenu.cs",
-              "RelativeToolTip": "RPG-Console\\Menus\\EquipMenu.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAIwCQAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T13:45:01.228Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ItemNameClass.cs",
-              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Menus\\ItemNameClass.cs",
-              "RelativeDocumentMoniker": "RPG-Console\\Menus\\ItemNameClass.cs",
-              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Menus\\ItemNameClass.cs",
-              "RelativeToolTip": "RPG-Console\\Menus\\ItemNameClass.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T19:55:51.09Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Character.cs",
-              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Entities\\Character.cs",
-              "RelativeDocumentMoniker": "RPG-Console\\Entities\\Character.cs",
-              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Entities\\Character.cs",
-              "RelativeToolTip": "RPG-Console\\Entities\\Character.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T17:39:25.976Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "MainClass.cs",
-              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\MainClass.cs",
-              "RelativeDocumentMoniker": "RPG-Console\\MainClass.cs",
-              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\MainClass.cs",
-              "RelativeToolTip": "RPG-Console\\MainClass.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T16:40:33.25Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Inventory.cs",
-              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Inventory.cs",
-              "RelativeDocumentMoniker": "RPG-Console\\Inventory.cs",
-              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Inventory.cs",
-              "RelativeToolTip": "RPG-Console\\Inventory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T16:26:28.037Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "HonestRandom.cs",
-              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\HonestRandom.cs",
-              "RelativeDocumentMoniker": "RPG-Console\\HonestRandom.cs",
-              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\HonestRandom.cs",
-              "RelativeToolTip": "RPG-Console\\HonestRandom.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T20:46:15.223Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Game.cs",
-              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Game.cs",
-              "RelativeDocumentMoniker": "RPG-Console\\Game.cs",
-              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Game.cs",
-              "RelativeToolTip": "RPG-Console\\Game.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAowAQAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T14:19:07.906Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 16,
               "Title": "Zombie.cs",
               "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Entities\\Zombie.cs",
               "RelativeDocumentMoniker": "RPG-Console\\Entities\\Zombie.cs",
@@ -456,7 +369,115 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Character.cs",
+              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Entities\\Character.cs",
+              "RelativeDocumentMoniker": "RPG-Console\\Entities\\Character.cs",
+              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Entities\\Character.cs",
+              "RelativeToolTip": "RPG-Console\\Entities\\Character.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T17:39:25.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Entities\\Enemy.cs",
+              "RelativeDocumentMoniker": "RPG-Console\\Entities\\Enemy.cs",
+              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Entities\\Enemy.cs",
+              "RelativeToolTip": "RPG-Console\\Entities\\Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T09:52:26.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Entities\\Entity.cs",
+              "RelativeDocumentMoniker": "RPG-Console\\Entities\\Entity.cs",
+              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Entities\\Entity.cs",
+              "RelativeToolTip": "RPG-Console\\Entities\\Entity.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T13:22:51.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Dungeon.cs",
+              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Locations\\Dungeon.cs",
+              "RelativeDocumentMoniker": "RPG-Console\\Locations\\Dungeon.cs",
+              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Locations\\Dungeon.cs",
+              "RelativeToolTip": "RPG-Console\\Locations\\Dungeon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T20:44:37.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IUsable.cs",
+              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Items\\IUsable.cs",
+              "RelativeDocumentMoniker": "RPG-Console\\Items\\IUsable.cs",
+              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Items\\IUsable.cs",
+              "RelativeToolTip": "RPG-Console\\Items\\IUsable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T15:55:18.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "StaticItems.cs",
+              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Items\\StaticItems.cs",
+              "RelativeDocumentMoniker": "RPG-Console\\Items\\StaticItems.cs",
+              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Items\\StaticItems.cs",
+              "RelativeToolTip": "RPG-Console\\Items\\StaticItems.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T17:39:21.613Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 25,
+              "Title": "HealingEffect.cs",
+              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Items\\Effects\\HealingEffect.cs",
+              "RelativeDocumentMoniker": "RPG-Console\\Items\\Effects\\HealingEffect.cs",
+              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Items\\Effects\\HealingEffect.cs",
+              "RelativeToolTip": "RPG-Console\\Items\\Effects\\HealingEffect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T10:37:14.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IPrototype.cs",
+              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Entities\\IPrototype.cs",
+              "RelativeDocumentMoniker": "RPG-Console\\Entities\\IPrototype.cs",
+              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Entities\\IPrototype.cs",
+              "RelativeToolTip": "RPG-Console\\Entities\\IPrototype.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T09:51:34.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Location.cs",
+              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Locations\\Location.cs",
+              "RelativeDocumentMoniker": "RPG-Console\\Locations\\Location.cs",
+              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Locations\\Location.cs",
+              "RelativeToolTip": "RPG-Console\\Locations\\Location.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T20:42:21.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "Potion.cs",
               "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Items\\Potion.cs",
               "RelativeDocumentMoniker": "RPG-Console\\Items\\Potion.cs",
@@ -465,18 +486,6 @@
               "ViewState": "AgIAAAIAAAAAAAAAAAAxwBUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-13T15:25:20.107Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "MainMenu.cs",
-              "DocumentMoniker": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Menus\\MainMenu.cs",
-              "RelativeDocumentMoniker": "RPG-Console\\Menus\\MainMenu.cs",
-              "ToolTip": "C:\\Users\\Sigma\\Desktop\\RPG-Console\\RPG-Console\\Menus\\MainMenu.cs",
-              "RelativeToolTip": "RPG-Console\\Menus\\MainMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T14:11:31.213Z"
             },
             {
               "$type": "Document",

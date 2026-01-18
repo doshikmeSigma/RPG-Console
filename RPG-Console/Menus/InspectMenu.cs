@@ -1,9 +1,9 @@
-﻿using System.Runtime.CompilerServices;
-using RPG_Console.Items;
+﻿using RPG_Console.Items;
+using RPG_Console.Mobs;
 
 namespace RPG_Console.Menus
 {
-    public class InspectMenu(Item item) : Menu
+    public class InspectMenu(Entity entity, Item item) : Menu(entity)
     {
         public override string MenuCallPhrase => "Inspect";
         protected override List<Menu> AvailableMenus => [];
@@ -15,14 +15,14 @@ namespace RPG_Console.Menus
 
         public override void OnRun()
         {
-            ConsoleRenderer.Render(this);
+            ConsoleRenderer.Render(CurrentEntity, this);
             Console.ReadKey(true);
             MenuManager.HandleInput(ConsoleKey.Escape);
         }
 
         protected override Menu Clone()
         {
-            return new InspectMenu(item);
+            return new InspectMenu(CurrentEntity, item);
         }
     }
 }

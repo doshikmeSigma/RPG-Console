@@ -1,22 +1,16 @@
 ﻿using RPG_Console.Items;
+using RPG_Console.Mobs;
 
 namespace RPG_Console.Menus
 {
-    public class UseMenu : Menu
+    public class UseMenu(Entity entity, Item item) : Menu(entity)
     {
-        private Item _item;
-
         public override string MenuCallPhrase => "Use";
         protected override List<Menu> AvailableMenus => [];
 
-        public UseMenu(Item item)
-        {
-            _item = item;
-        }
-
         public void DescripeUseOfItem()
         {
-            if (_item is IUsable usableItem)
+            if (item is IUsable usableItem)
             {
                 usableItem.DescribeUse();
             }
@@ -35,24 +29,24 @@ namespace RPG_Console.Menus
 
         public override void OnRun()
         {
-            ConsoleRenderer.Render(this);
+            ConsoleRenderer.Render(CurrentEntity, this);
             Console.ReadKey(true);
-            if (_item is IUsable usableItem) MenuManager.NavigateBackTo<InventoryMenu>();
+            if (item is IUsable) MenuManager.NavigateBackTo<InventoryMenu>();
             else MenuManager.HandleInput(ConsoleKey.Escape);
         }
 
         private void Use()
         {
-            if (_item is IUsable usableItem)
+            if (item is IUsable usableItem)
             {
                 usableItem.UseItem();
-                MainCharacter.Inventory.Remove(_item);
+                CurrentEntity.Inventory.Remove(item);
             }
         }
 
         protected override Menu Clone()
         {
-            return new UseMenu(_item);
+            return new UseMenu(CurrentEntity, item);
         }
     }
 }

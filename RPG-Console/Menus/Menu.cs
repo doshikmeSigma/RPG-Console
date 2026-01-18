@@ -2,10 +2,10 @@
 
 namespace RPG_Console.Menus
 {
-    public abstract class Menu
+    public abstract class Menu(Entity entity)
     {
         public const int StartCursorPosition = 5;
-        protected Character MainCharacter { get; } = Game.MainCharacter;
+        protected Entity CurrentEntity { get; } = entity;
         public int CountAvailableMenus => AvailableMenus.Count;
         private int _currentCursorPosition = StartCursorPosition;
         public int CurrentCursorPosition

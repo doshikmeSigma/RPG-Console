@@ -1,4 +1,5 @@
 ﻿using RPG_Console.Items;
+using RPG_Console.Mobs;
 
 namespace RPG_Console.Menus
 {
@@ -7,7 +8,7 @@ namespace RPG_Console.Menus
         public override string MenuCallPhrase { get; } = "Check the inventory";
         protected override List<Menu> AvailableMenus { get; } = [];
 
-        public InventoryMenu()
+        public InventoryMenu(Entity entity) : base(entity)
         {
             BuildMenu();
         }
@@ -18,29 +19,27 @@ namespace RPG_Console.Menus
             BuildMenu();
         }
 
-
-
         public void BuildMenu()
         {
             AvailableMenus.Clear();
-            Inventory inventory = Game.MainCharacter.Inventory;
-            EquipmentSlots equipmentSlots = Game.MainCharacter.Equipment;
+            Inventory inventory = CurrentEntity.Inventory;
+            EquipmentSlots equipmentSlots = CurrentEntity.Equipment;
             List<EquipmentSlot> slots = equipmentSlots.GetAllSlots();
 
             foreach (var slot in slots)
             {
-                AvailableMenus.Add(new ItemNameClass(equipmentSlots[slot], slot.ToString()));
+                AvailableMenus.Add(new ItemNameClass(CurrentEntity, equipmentSlots[slot], slot.ToString()));
             }
 
             foreach (var item in inventory)
             {
-                AvailableMenus.Add(new ItemNameClass(item));
+                AvailableMenus.Add(new ItemNameClass(CurrentEntity, item));
             }
         }
 
         protected override Menu Clone()
         {
-            return new InventoryMenu();
+            return new InventoryMenu(CurrentEntity);
         }
     }
 }

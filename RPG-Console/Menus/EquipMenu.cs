@@ -1,17 +1,12 @@
 ﻿using RPG_Console.Items;
+using RPG_Console.Mobs;
 
 namespace RPG_Console.Menus
 {
-    public class EquipMenu : Menu
+    public class EquipMenu(Entity entity, Item item) : Menu(entity)
     {
-        private Item _item;
         public override string MenuCallPhrase => "Equip";
         protected override List<Menu> AvailableMenus => [];
-
-        public EquipMenu(Item item)
-        {
-            _item = item;
-        }
 
         public override void Prepare()
         {
@@ -21,42 +16,42 @@ namespace RPG_Console.Menus
 
         public override void OnRun()
         {
-            ConsoleRenderer.Render(this);
+            ConsoleRenderer.Render(CurrentEntity, this);
             Console.ReadKey(true);
-            if (_item.AvailableEquipmentSlot == EquipmentSlot.None) MenuManager.HandleInput(ConsoleKey.Escape);
+            if (item.AvailableEquipmentSlot == EquipmentSlot.None) MenuManager.HandleInput(ConsoleKey.Escape);
             else MenuManager.NavigateBackTo<InventoryMenu>();
         }
 
         public void DescripeEquipOfItem()
         {
-            if (_item.AvailableEquipmentSlot == EquipmentSlot.None)
+            if (item.AvailableEquipmentSlot == EquipmentSlot.None)
             {
                 Console.WriteLine("This item cannot be equipped\n");
                 Console.WriteLine("Press any key to return");
             }
             else
             {
-                Console.WriteLine($"You’ve equipped a {_item.Name}");
+                Console.WriteLine($"You’ve equipped a {item.Name}");
             }
         }
 
         private void Equip()
         {
-            if (_item.AvailableEquipmentSlot != EquipmentSlot.None && MainCharacter.Equipment[_item.AvailableEquipmentSlot] != _item)
+            if (item.AvailableEquipmentSlot != EquipmentSlot.None && CurrentEntity.Equipment[item.AvailableEquipmentSlot] != item)
             {
-                EquipmentSlots equipmentSlots = MainCharacter.Equipment;
-                Inventory inventory = MainCharacter.Inventory;
+                EquipmentSlots equipmentSlots = CurrentEntity.Equipment;
+                Inventory inventory = CurrentEntity.Inventory;
 
-                Item oldItem = equipmentSlots[_item.AvailableEquipmentSlot];
-                equipmentSlots[_item.AvailableEquipmentSlot] = _item;
-                inventory.Remove(_item);
+                Item oldItem = equipmentSlots[item.AvailableEquipmentSlot];
+                equipmentSlots[item.AvailableEquipmentSlot] = item;
+                inventory.Remove(item);
                 if (oldItem.Id != ItemId.Fists) inventory.Add(oldItem);
             }
         }
 
         protected override Menu Clone()
         {
-            return new EquipMenu(_item);
+            return new EquipMenu(CurrentEntity, item);
         }
     }
 }
