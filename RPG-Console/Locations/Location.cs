@@ -7,14 +7,25 @@ namespace RPG_Console.Locations
 {
     public abstract class Location()
     {
-        protected string LocationName { get; }
-        protected string Description { get; }
-        protected List<Entity> LocationEntities { get; } = [];
-        protected List<Item> LocationItems { get; } = [];
+        protected static Random RandomGenerator = new Random();
+        protected abstract string LocationName { get; }
+        protected abstract string Description { get; }
+        protected abstract List<Enemy> LocationEnemies { get; }
+        protected abstract List<Item> LocationItems { get; }
+        protected abstract Enemy LocationBoss { get; }
 
-        public void ShowLocationDescription()
+        public Enemy GetRandomEnemy()
         {
-            Console.WriteLine(Description);
+            Enemy randomEnemy = LocationEnemies[RandomGenerator.Next(LocationEnemies.Count)];
+            LocationEnemies.Remove(randomEnemy);
+            return randomEnemy;
+        }
+        public Item GetRandomItem()
+        {
+            Item randomItem = LocationItems[RandomGenerator.Next(LocationItems.Count)];
+            LocationItems.Remove(randomItem);
+            return randomItem;
         }
     }
 }
+

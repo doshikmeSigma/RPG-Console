@@ -1,23 +1,33 @@
-﻿using RPG_Console.Menus;
+﻿using RPG_Console.Entities;
+using RPG_Console.Menus;
 using RPG_Console.Mobs;
 
 namespace RPG_Console
 {
     public static class ConsoleRenderer
     {
-        public const int StartCursorPosition = 5;
+        private const int StartCursorPosition = 5;
+        private static Character character { get; } = Game.MainCharacter;
 
-        public static void DrawHUD(Entity entity)
+        public static void DrawHUD()
         {
             Console.Clear();
-            Console.WriteLine($"Name: {entity.Name}");
-            Console.WriteLine($"HealthPoint: {entity.HealthPoint}/{entity.MaxHealthPoint}");
-            if (entity is Character character)
-            {
-                Console.WriteLine($"Level: {character.Level}");
-                Console.WriteLine($"Experience: {character.Experience}/{character.ExpToTheNextLevel}");
-                Console.SetCursorPosition(0, StartCursorPosition);
-            }
+            Console.WriteLine($"Name: {character.Name}");
+            Console.WriteLine($"HealthPoint: {character.HealthPoint}/{character.MaxHealthPoint}");
+            Console.WriteLine($"Level: {character.Level}");
+            Console.WriteLine($"Experience: {character.Experience}/{character.ExpToTheNextLevel}");
+            Console.SetCursorPosition(0, StartCursorPosition);
+        }
+        public static void DrawHUD(Enemy enemy)
+        {
+            Console.Clear();
+            Console.Write($"Name: {character.Name}\t");
+            Console.WriteLine($"Name: {enemy.Name}");
+            Console.Write($"HealthPoint: {character.HealthPoint}/{character.MaxHealthPoint}\t");
+            Console.WriteLine($"HealthPoint: {enemy.HealthPoint}/{enemy.MaxHealthPoint}");
+            Console.WriteLine($"Level: {character.Level}");
+            Console.WriteLine($"Experience: {character.Experience}/{character.ExpToTheNextLevel}");
+            Console.SetCursorPosition(0, StartCursorPosition);
         }
 
         public static void DrawMenu(Menu menu)
@@ -32,10 +42,12 @@ namespace RPG_Console
                     return;
                 case InspectMenu:
                     ((InspectMenu)menu).Inspect();
-                    Console.WriteLine("\nPress any key to return");
                     return;
                 case DropMenu:
                     ((DropMenu)menu).DescripeDropOfItem();
+                    break;
+                case ExploreLocationMenu:
+                    ((ExploreLocationMenu)menu).DescripeRandomAction();
                     break;
             }
 
@@ -52,9 +64,14 @@ namespace RPG_Console
             }
         }
 
-        public static void Render(Entity entity, Menu menu)
+        public static void Render(Menu menu)
         {
-            DrawHUD(entity);
+            DrawHUD();
+            DrawMenu(menu);
+        }
+        public static void Render(Menu menu, Enemy enemy)
+        {
+            DrawHUD(enemy);
             DrawMenu(menu);
         }
     }

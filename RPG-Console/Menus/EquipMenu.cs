@@ -3,7 +3,7 @@ using RPG_Console.Mobs;
 
 namespace RPG_Console.Menus
 {
-    public class EquipMenu(Entity entity, Item item) : Menu(entity)
+    public class EquipMenu(Item item) : Menu
     {
         public override string MenuCallPhrase => "Equip";
         protected override List<Menu> AvailableMenus => [];
@@ -16,7 +16,7 @@ namespace RPG_Console.Menus
 
         public override void OnRun()
         {
-            ConsoleRenderer.Render(CurrentEntity, this);
+            ConsoleRenderer.Render(this);
             Console.ReadKey(true);
             if (item.AvailableEquipmentSlot == EquipmentSlot.None) MenuManager.HandleInput(ConsoleKey.Escape);
             else MenuManager.NavigateBackTo<InventoryMenu>();
@@ -37,21 +37,16 @@ namespace RPG_Console.Menus
 
         private void Equip()
         {
-            if (item.AvailableEquipmentSlot != EquipmentSlot.None && CurrentEntity.Equipment[item.AvailableEquipmentSlot] != item)
+            if (item.AvailableEquipmentSlot != EquipmentSlot.None && Game.MainCharacter.Equipment[item.AvailableEquipmentSlot] != item)
             {
-                EquipmentSlots equipmentSlots = CurrentEntity.Equipment;
-                Inventory inventory = CurrentEntity.Inventory;
+                EquipmentSlots equipmentSlots = Game.MainCharacter.Equipment;
+                Inventory inventory = Game.MainCharacter.Inventory;
 
                 Item oldItem = equipmentSlots[item.AvailableEquipmentSlot];
                 equipmentSlots[item.AvailableEquipmentSlot] = item;
                 inventory.Remove(item);
                 if (oldItem.Id != ItemId.Fists) inventory.Add(oldItem);
             }
-        }
-
-        protected override Menu Clone()
-        {
-            return new EquipMenu(CurrentEntity, item);
         }
     }
 }

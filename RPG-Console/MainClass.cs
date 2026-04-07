@@ -20,11 +20,10 @@ namespace RPG_Console
             character.Inventory.Add(StaticItems.Get(ItemId.HealthPotion));
             character.HealthPoint = 60;
 
-
             MenuState menuState = MenuState.Continue;
             while (menuState == MenuState.Continue)
             {
-                menuState = MenuManager.Run(character);
+                menuState = MenuManager.Run();
             }
             Console.Clear();
             Console.WriteLine("You are out of the game");

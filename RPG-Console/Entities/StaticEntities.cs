@@ -1,26 +1,19 @@
 ﻿using System.Collections.Immutable;
-using RPG_Console.Items;
 using RPG_Console.Mobs;
 
 namespace RPG_Console.Entities
 {
     public static class StaticEntities
     {
-        private readonly static ImmutableDictionary<string, Enemy> EntitiesTemplates = ImmutableDictionary.Create<string, Enemy>()
-            .Add("zombie", new Zombie("Zombie", 80));
+        private readonly static ImmutableDictionary<EnemyId, Enemy> EntitiesTemplates = ImmutableDictionary.Create<EnemyId, Enemy>()
+            .Add(EnemyId.Zombie, new Zombie("Zombie", 80));
 
-        public static Entity Create(string id)
-        {
-            return EntitiesTemplates[id].Clone();
-        }
+        public static Enemy Get(EnemyId enemyId) => EntitiesTemplates[enemyId].Clone();
+        public static bool Contains(EnemyId enemyId) => EntitiesTemplates.ContainsKey(enemyId);
+    }
 
-        public static bool ContainsKeyInEntitiesTemplates(string id)
-        {
-            if (EntitiesTemplates.ContainsKey(id))
-            {
-                return true;
-            }
-            return false;
-        }
+    public enum EnemyId
+    {
+        Zombie
     }
 }

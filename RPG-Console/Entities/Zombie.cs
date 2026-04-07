@@ -10,9 +10,6 @@ namespace RPG_Console.Mobs
             Equipment[EquipmentSlot.MainHand] = StaticItems.Get(ItemId.ZombieHands);
         }
 
-        public override Zombie Clone()
-        {
-            return new Zombie(Name, HealthPoint);    
-        }
+        public override Zombie Clone() => new Zombie(Name, HealthPoint); 
     }
 }

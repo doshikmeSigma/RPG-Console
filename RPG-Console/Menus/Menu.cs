@@ -1,11 +1,11 @@
-﻿using RPG_Console.Mobs;
+﻿using RPG_Console.Entities;
+using RPG_Console.Mobs;
 
 namespace RPG_Console.Menus
 {
-    public abstract class Menu(Entity entity)
+    public abstract class Menu
     {
         public const int StartCursorPosition = 5;
-        protected Entity CurrentEntity { get; } = entity;
         public int CountAvailableMenus => AvailableMenus.Count;
         private int _currentCursorPosition = StartCursorPosition;
         public int CurrentCursorPosition
@@ -34,6 +34,5 @@ namespace RPG_Console.Menus
 
         public virtual void Prepare() { ResetCursor(); }
         public virtual void OnRun() { }
-        protected abstract Menu Clone();
     }
 }

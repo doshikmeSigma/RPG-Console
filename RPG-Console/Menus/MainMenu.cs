@@ -1,18 +1,25 @@
-﻿using RPG_Console.Mobs;
+﻿using RPG_Console.Entities;
+using RPG_Console.Locations;
+using RPG_Console.Mobs;
 
 namespace RPG_Console.Menus
 {
-    public class MainMenu(Entity entity) : Menu(entity)
+    public class MainMenu : Menu
     {
         public override string MenuCallPhrase => "MainMenu";
-        protected override List<Menu> AvailableMenus { get; } =
-        [
-            new InventoryMenu(entity)
-        ];
+        protected override List<Menu> AvailableMenus { get; } = [];
 
-        protected override Menu Clone()
+        public MainMenu(Character character, Location location, Enemy enemy = null)
         {
-            return new MainMenu(CurrentEntity);
+            AvailableMenus.Add(new InventoryMenu(character));
+            if (enemy != null)
+            {
+                AvailableMenus.Add(new InventoryMenu(enemy));
+            }
+            else
+            {
+                AvailableMenus.Add(new ExploreLocationMenu(character, location));
+            }
         }
     }
 }

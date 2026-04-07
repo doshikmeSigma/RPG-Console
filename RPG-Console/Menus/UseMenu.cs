@@ -3,7 +3,7 @@ using RPG_Console.Mobs;
 
 namespace RPG_Console.Menus
 {
-    public class UseMenu(Entity entity, Item item) : Menu(entity)
+    public class UseMenu(Item item) : Menu
     {
         public override string MenuCallPhrase => "Use";
         protected override List<Menu> AvailableMenus => [];
@@ -29,7 +29,7 @@ namespace RPG_Console.Menus
 
         public override void OnRun()
         {
-            ConsoleRenderer.Render(CurrentEntity, this);
+            ConsoleRenderer.Render(this);
             Console.ReadKey(true);
             if (item is IUsable) MenuManager.NavigateBackTo<InventoryMenu>();
             else MenuManager.HandleInput(ConsoleKey.Escape);
@@ -40,13 +40,8 @@ namespace RPG_Console.Menus
             if (item is IUsable usableItem)
             {
                 usableItem.UseItem();
-                CurrentEntity.Inventory.Remove(item);
+                Game.MainCharacter.Inventory.Remove(item);
             }
-        }
-
-        protected override Menu Clone()
-        {
-            return new UseMenu(CurrentEntity, item);
         }
     }
 }

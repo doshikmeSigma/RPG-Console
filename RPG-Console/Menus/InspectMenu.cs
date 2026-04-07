@@ -3,7 +3,7 @@ using RPG_Console.Mobs;
 
 namespace RPG_Console.Menus
 {
-    public class InspectMenu(Entity entity, Item item) : Menu(entity)
+    public class InspectMenu(Item item) : Menu
     {
         public override string MenuCallPhrase => "Inspect";
         protected override List<Menu> AvailableMenus => [];
@@ -11,18 +11,14 @@ namespace RPG_Console.Menus
         public void Inspect()
         {
             Console.WriteLine(item.FullDescription());
+            Console.WriteLine("\nPress any key to return");
         }
 
         public override void OnRun()
         {
-            ConsoleRenderer.Render(CurrentEntity, this);
+            ConsoleRenderer.Render(this);
             Console.ReadKey(true);
             MenuManager.HandleInput(ConsoleKey.Escape);
-        }
-
-        protected override Menu Clone()
-        {
-            return new InspectMenu(CurrentEntity, item);
         }
     }
 }

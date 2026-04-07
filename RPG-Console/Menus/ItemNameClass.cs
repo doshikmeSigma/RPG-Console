@@ -3,20 +3,22 @@ using RPG_Console.Mobs;
 
 namespace RPG_Console.Menus
 {
-    public class ItemNameClass(Entity entity, Item item, string key = null) : Menu(entity)
+    public class ItemNameClass : Menu
     {
-        public override string MenuCallPhrase => key != null ? $"{key} > {item.Name} <" : item.Name;
-        protected override List<Menu> AvailableMenus { get; } =
-        [
-            new UseMenu(entity, item),
-            new EquipMenu(entity, item),
-            new InspectMenu(entity, item),
-            new DropMenu(entity, item)
-        ];
+        public override string MenuCallPhrase { get; }
+        protected override List<Menu> AvailableMenus { get; } = [];
 
-        protected override Menu Clone()
+        public ItemNameClass(Entity entity, Item item, string key = null)
         {
-            return new ItemNameClass(CurrentEntity, item, key);
+            MenuCallPhrase = key != null ? $"{key} > {item.Name} <" : item.Name;
+
+            AvailableMenus.Add(new InspectMenu(item));
+            if (entity is Character)
+            {
+                AvailableMenus.Add(new UseMenu(item));
+                AvailableMenus.Add(new EquipMenu(item));
+                AvailableMenus.Add(new DropMenu(item));
+            }
         }
     }
 }

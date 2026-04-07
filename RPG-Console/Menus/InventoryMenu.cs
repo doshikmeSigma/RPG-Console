@@ -1,15 +1,19 @@
-﻿using RPG_Console.Items;
+﻿using RPG_Console.Entities;
+using RPG_Console.Items;
 using RPG_Console.Mobs;
 
 namespace RPG_Console.Menus
 {
     public class InventoryMenu : Menu
     {
+        private Entity CurrentEntity { get; }
         public override string MenuCallPhrase { get; } = "Check the inventory";
         protected override List<Menu> AvailableMenus { get; } = [];
 
-        public InventoryMenu(Entity entity) : base(entity)
+        public InventoryMenu(Entity entity)
         {
+            if (entity is Enemy) MenuCallPhrase = "Check the enemy's equipment";
+            CurrentEntity = entity;
             BuildMenu();
         }
 
@@ -35,11 +39,6 @@ namespace RPG_Console.Menus
             {
                 AvailableMenus.Add(new ItemNameClass(CurrentEntity, item));
             }
-        }
-
-        protected override Menu Clone()
-        {
-            return new InventoryMenu(CurrentEntity);
         }
     }
 }

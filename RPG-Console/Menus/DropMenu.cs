@@ -3,15 +3,10 @@ using RPG_Console.Mobs;
 
 namespace RPG_Console.Menus
 {
-    public class DropMenu(Entity entity, Item item) : Menu(entity)
+    public class DropMenu(Item item) : Menu
     {
         public override string MenuCallPhrase => "Drop";
         protected override List<Menu> AvailableMenus => [];
-
-        protected override Menu Clone()
-        {
-            return new DropMenu(CurrentEntity, item);
-        }
 
         public void DescripeDropOfItem()
         {
@@ -20,7 +15,7 @@ namespace RPG_Console.Menus
 
         public override void OnRun()
         {
-            ConsoleRenderer.Render(CurrentEntity, this);
+            ConsoleRenderer.Render(this);
             if (Console.ReadKey(true).Key == ConsoleKey.Enter)
             {
                 Drop();
@@ -31,10 +26,10 @@ namespace RPG_Console.Menus
 
         private void Drop()
         {
-            EquipmentSlots equipmentSlots = CurrentEntity.Equipment;
+            EquipmentSlots equipmentSlots = Game.MainCharacter.Equipment;
             EquipmentSlot equipmentSlot = item.AvailableEquipmentSlot;
             if (equipmentSlot != EquipmentSlot.None && item == equipmentSlots[equipmentSlot]) equipmentSlots.ClearEquipmentSlot(equipmentSlot);
-            else CurrentEntity.Inventory.Remove(item);
+            else Game.MainCharacter.Inventory.Remove(item);
         }
     }
 }

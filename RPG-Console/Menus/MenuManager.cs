@@ -1,4 +1,6 @@
-﻿using RPG_Console.Mobs;
+﻿using RPG_Console.Entities;
+using RPG_Console.Locations;
+using RPG_Console.Mobs;
 
 namespace RPG_Console.Menus
 {
@@ -9,13 +11,17 @@ namespace RPG_Console.Menus
 
         static MenuManager()
         {
-            Menus.Push(new MainMenu(Game.MainCharacter));
+            Push(new MainMenu(Game.MainCharacter, LocationManager.Get()));
         }
 
-        private static void Push(Menu menu)
+        public static void Push(Menu menu)
         {
             menu.Prepare();
             Menus.Push(menu);
+        }
+        public static void Clear()
+        {
+            Menus.Clear();
         }
 
         public static MenuState HandleInput(ConsoleKey key)
@@ -46,12 +52,12 @@ namespace RPG_Console.Menus
             Menus.Peek().Prepare();
         }
 
-        public static MenuState Run(Entity entity)
+        public static MenuState Run()
         {
             if (Menus.Count == 0) return MenuState.Exit;
 
             Menus.Peek().OnRun();
-            ConsoleRenderer.Render(entity, Menus.Peek());
+            ConsoleRenderer.Render(Menus.Peek());
             HandleInput(Console.ReadKey(true).Key);
 
             return MenuState.Continue;

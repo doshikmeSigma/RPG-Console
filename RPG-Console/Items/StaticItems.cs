@@ -7,10 +7,12 @@ namespace RPG_Console.Items
     public static class StaticItems
     {
         private readonly static ImmutableDictionary<ItemId, Item> ItemTemplates = ImmutableDictionary.Create<ItemId, Item>()
-            // Weapons
+            // Standard weapon
             .Add(ItemId.Fists, new Weapon("Fists", ItemId.Fists, EquipmentSlot.MainHand, 15))
-            .Add(ItemId.Sword, new Weapon("Sword", ItemId.Sword, EquipmentSlot.MainHand, 20))
             .Add(ItemId.ZombieHands, new Weapon("ZombieHands", ItemId.ZombieHands, EquipmentSlot.MainHand, 10))
+
+            // Weapon
+            .Add(ItemId.Sword, new Weapon("Sword", ItemId.Sword, EquipmentSlot.MainHand, 20))
 
             // Armor
             .Add(ItemId.Helmet, new Armor("Helmet", ItemId.Helmet, EquipmentSlot.MainHand, 1))
